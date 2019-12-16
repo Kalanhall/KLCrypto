@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KLCrypto_Example' do
+  pod 'KLCrypto', :path => '../'
+
+  target 'KLCrypto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
