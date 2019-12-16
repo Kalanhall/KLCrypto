@@ -1,0 +1,6 @@
+framework module KLCrypto {
+  umbrella header "KLCrypto-umbrella.h"
+
+  export *
+  module * { export * }
+}
